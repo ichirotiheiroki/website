@@ -45,6 +45,8 @@ a, a:hover {
   color: #fc5a03;
 }
 
+html
+{scroll-behavior: smooth;}
 .ichi-banner-text-box {
   position: relative;
   max-height: 120px;
