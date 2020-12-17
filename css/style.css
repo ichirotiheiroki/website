@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Lato', sans-serif;
   overflow: hidden;
@@ -274,6 +275,31 @@ html
   font-weight: 700;
 }
 
+.cursor {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fc5a03;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .1s ;
+}
+.cursor2 {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color:  #fc5a03;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .15s ;
+}
+
 
 footer {
   background: #101011;
@@ -352,6 +378,7 @@ footer::before {
   width: 100%;
   left: 0;
 }
+
 
 @media (max-width: 1199px) {
   .ichi-content-box .pr-0 img {
